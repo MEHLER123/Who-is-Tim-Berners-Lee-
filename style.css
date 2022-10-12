@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+
+.profile {
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background-color: #0c3747;
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: cyan;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#bio {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.menu {
+      position: fixed;
+      margin-top: 0px;
+      top: 0px;
+      z-index: 10;
+      right:30px;
+      cursor: pointer;
+      color: rgb(0, 255, 110);
+
+}
+.link { 
+
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      font-size: 20px;
+      display: inline;
+      
+}
+.link:hover{
+     font-size: 25px;
+     text-decoration: underline;
+     
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(6, 192, 130);
+}
+.contato1 h4{
+    display: inline;
+}
